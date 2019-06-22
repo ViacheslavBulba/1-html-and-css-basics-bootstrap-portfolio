@@ -1,0 +1,83 @@
+.header {
+    margin-top: 15px;
+}
+
+.logo {
+    width: 60px;
+    margin-top: 7px;
+}
+
+.center-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: fantasy;
+    font-size: 2em;
+    color: #7d97ad;
+    margin-top: 15px;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+.projects-container {
+    margin-top: 30px;
+}
+
+.project-image {
+    margin-top: 25px;
+
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+h1,
+h2,
+h3 {
+    font-family: fantasy;
+    text-transform: uppercase;
+    color: #2d3c49;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    width: 100%;
+    color: #7d97ad;
+    background-color: #7d97ad;
+}
+
+a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
