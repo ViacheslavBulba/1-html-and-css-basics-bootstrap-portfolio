@@ -9,16 +9,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/desktop.css">
-    
+    <link rel="stylesheet" media="screen and (max-width: 766px)" href="css/mobile.css">
+
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <header class="row header">
-            <div class="col-md-6 left">
-                <img class="logo img-fluid" src="img/logo.svg" alt="Udacity Logo">
+            <div class="col left">
+                <img class="logo" src="img/logo.svg" alt="Udacity Logo">
             </div>
-            <div class="col-md-6 right">
+            <div class="col right">
                 <h1>Slava Bulba</h1>
                 <h3>Front-End Ninja</h3>
             </div>
@@ -28,32 +29,55 @@
         </div>
         <section class="row">
             <div class="col-md-12">
-                <img class="center-image" src="img/background.jpg" alt="Central image">
+
+
+                <picture>
+                    <source media='(max-width: 480px)' srcset='img/background_480p.jpg' />
+                    <img class="center-image" src="img/background_1080p.jpg" alt="Central image">
+                </picture>
+
+
+
             </div>
         </section>
 
         <section class="row projects-container">
 
             <div class="row">
-                <div class="col-md-12">
-                    <p>Featured Work</p>
+                <div class="col center">
+                    <p class="paragraph">Featured Work</p>
                 </div>
             </div>
 
             <div class="row">
 
                 <article class="col-md-4">
-                    <img class="project-image img-fluid" src="img/laptop-left.jpg" alt="Project 1 image">
+                    
+
+                    <picture>
+                        <source media='(max-width: 480px)' srcset='img/laptop-left_480p.jpg' />
+                        <img class="project-image img-fluid" src="img/laptop-left.jpg" alt="Portfolio project image">
+                    </picture>
                     <h2>Portfolio</h2>
                     <a href="#">https://github.com/udacity/portfolio/</a>
                 </article>
                 <article class="col-md-4">
-                    <img class="project-image img-fluid" src="img/laptop-center.jpg" alt="Project 2 image">
+                    
+
+                    <picture>
+                        <source media='(max-width: 480px)' srcset='img/laptop-center_480p.jpg' />
+                        <img class="project-image img-fluid" src="img/laptop-center.jpg" alt="Card matching game project image">
+                    </picture>
                     <h2>Card Matching Game</h2>
                     <a href="#">https://github.com/udacity/cardMatchingGame/</a>
                 </article>
                 <article class="col-md-4">
-                    <img class="project-image img-fluid" src="img/laptop-right.jpg" alt="Project 3 image">
+                    
+
+                    <picture>
+                        <source media='(max-width: 480px)' srcset='img/laptop-right_480p.jpg' />
+                        <img class="project-image img-fluid" src="img/laptop-right.jpg" alt="Arcade game frogger project image">
+                    </picture>
                     <h2>Arcade Game Frogger</h2>
                     <a href="#">https://github.com/udacity/arcadeGameFrogger/</a>
                 </article>

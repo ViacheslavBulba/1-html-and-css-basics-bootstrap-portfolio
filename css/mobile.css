@@ -1,27 +1,40 @@
 .header {
     margin-top: 15px;
+    white-space: nowrap;
 }
 
 .logo {
-    width: 60px;
+    width: 30px;
+    height: 30px;
     margin-top: 0px;
 }
 
 .center-image {
     width: 100%;
     max-width: 100%;
-    max-height: 1000px;
+    height: auto;
+}
+
+.paragraph {
+    width: 100vw;
+    text-align: center;
+    padding-left: 20px;
+    font-family: fantasy;
+    font-size: 2em;
+    color: #7d97ad;
+    margin-top: 15px;
+    margin-bottom: 0;
+    line-height: 0;
 }
 
 .projects-container {
     margin-top: 30px;
+    text-align: center;
 }
 
 .project-image {
-    padding: 15px;
-    border-radius: 30px;
     margin-top: 25px;
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
 
@@ -41,21 +54,25 @@ img {
     text-align: left;
 }
 
+.center {
+    text-align: center;
+}
+
 h1,
 h2,
 h3 {
     font-family: fantasy;
     text-transform: uppercase;
     color: #2d3c49;
+    font-weight: bold;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 h2 {
-    font-size: 2em;
-    padding: 15px;
+    font-size: 1em;
 }
 
 h3 {
@@ -71,19 +88,6 @@ hr {
 }
 
 a {
-    margin-top: 0px;
     overflow-wrap: break-word;
     word-wrap: break-word;
-}
-
-.paragraph {
-    width: 100vw;
-    text-align: left;
-    padding-left: 20px;
-    font-family: fantasy;
-    font-size: 2em;
-    color: #7d97ad;
-    margin-top: 15px;
-    margin-bottom: 0;
-    line-height: 0;
 }
