@@ -12,13 +12,13 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <header class="row header">
-            <div class="col left">
+            <div class="col-1 left">
                 <img class="logo" src="img/logo.svg" alt="Udacity Logo">
             </div>
-            <div class="col right">
-                <h1>Slava Bulba</h1>
+            <div class="col-11 right header-text-right">
+                <h1>Viacheslav Bulba</h1>
                 <h3>Front-End Ninja</h3>
             </div>
         </header>
@@ -35,36 +35,52 @@
         </section>
         <section class="row projects-container">
             <div class="row">
-                <div class="col">
+                <div class="col-12">
                     <p class="paragraph">Featured Work</p>
                 </div>
             </div>
             <div class="row">
                 <article class="col-md-4">
                     <picture>
-                        <source media='(max-width: 480px)' srcset='img/laptop-left_480p.jpg' />
-                        <img class="project-image img-fluid" src="img/laptop-left.jpg" alt="Portfolio project image">
-                    </picture>
-                    <h2>Portfolio</h2>
-                    <a href="#">https://github.com/udacity/portfolio/</a>
-                </article>
-                <article class="col-md-4">
-                    <picture>
-                        <source media='(max-width: 480px)' srcset='img/laptop-center_480p.jpg' />
-                        <img class="project-image img-fluid" src="img/laptop-center.jpg"
+                        <source media='(max-width: 480px)' srcset='img/card-game_330p.png' />
+                        <img class="project-image img-fluid" src="img/card-game.png"
                             alt="Card matching game project image">
                     </picture>
                     <h2>Card Matching Game</h2>
-                    <a href="#">https://github.com/udacity/cardMatchingGame/</a>
+                    <div class="links">
+                        <a href="https://viacheslavbulba.github.io/2-java-script-the-dom-and-event-listeners/"
+                            target="_blank">Online version</a><br>
+                        <a href="https://github.com/ViacheslavBulba/2-java-script-the-dom-and-event-listeners"
+                            target="_blank">Repo on Github</a>
+                    </div>
                 </article>
                 <article class="col-md-4">
                     <picture>
-                        <source media='(max-width: 480px)' srcset='img/laptop-right_480p.jpg' />
-                        <img class="project-image img-fluid" src="img/laptop-right.jpg"
-                            alt="Arcade game frogger project image">
+                        <source media='(max-width: 480px)' srcset='img/frogger-game_330p.png' />
+                        <img class="project-image img-fluid" src="img/frogger-game.png"
+                            alt="Frogger game project image">
                     </picture>
                     <h2>Arcade Game Frogger</h2>
-                    <a href="#">https://github.com/udacity/arcadeGameFrogger/</a>
+                    <div class="links">
+                        <a href="https://viacheslavbulba.github.io/3-object-oriented-javascript-es6-html5-canvas/"
+                            target="_blank">Online version</a><br>
+                        <a href="https://github.com/ViacheslavBulba/3-object-oriented-javascript-es6-html5-canvas"
+                            target="_blank">Repo on Github</a>
+                    </div>
+                </article>
+                <article class="col-md-4">
+                    <picture>
+                        <source media='(max-width: 480px)' srcset='img/restaurant-reviews_330p.png' />
+                        <img class="project-image img-fluid" src="img/restaurant-reviews.png"
+                            alt="Restaurant Reviews project image">
+                    </picture>
+                    <h2>Restaurant Reviews</h2>
+                    <div class="links">
+                        <a href="https://viacheslavbulba.github.io/5-accessibility-features-and-work-offline-using-service-worker/"
+                            target="_blank">Online version</a><br>
+                        <a href="https://github.com/ViacheslavBulba/5-accessibility-features-and-work-offline-using-service-worker"
+                            target="_blank">Repo on Github</a>
+                    </div>
                 </article>
             </div>
         </section>
