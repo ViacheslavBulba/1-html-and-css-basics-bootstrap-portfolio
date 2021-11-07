@@ -2,87 +2,105 @@
 <html lang="en">
 
 <head>
-    <title>My Portfolio by Viacheslav Bulba</title>
+    <title>Viacheslav Bulba's Portfolio</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <header class="row header">
-            <div class="col-1 left">
-                <img class="logo" src="img/logo.svg" alt="Udacity Logo">
-            </div>
-            <div class="col-11 right header-text-right">
-                <h1>Viacheslav Bulba</h1>
-                <h3>Front-End Ninja</h3>
-            </div>
-        </header>
-        <div class="row">
-            <hr>
-        </div>
-        <section class="row">
-            <div class="col-md-12">
-                <picture>
-                    <source media='(max-width: 480px)' srcset='img/background_480p.jpg' />
-                    <img class="center-image" src="img/background_1080p.jpg" alt="Central image">
-                </picture>
-            </div>
-        </section>
-        <section class="row projects-container">
-            <div class="row">
-                <div class="col-12">
-                    <p class="paragraph">Featured Work</p>
+    <div class="main-container">
+
+        <h1>Viacheslav Bulba's Portfolio</h1>
+
+        <section class="all-projects-container">
+
+            <div class="project-container">
+                <a href="http://ec2-18-217-92-118.us-east-2.compute.amazonaws.com" target="_blank">
+                    <img class="project-image" src="img/movie-catalog.png" alt="Movie Catalog - ReactJS project image">
+                </a>
+                <div class="project-name">Movie Catalog - ReactJS</div>
+                <div class="links">
+                    <div class="link">
+                        <a href="http://ec2-18-217-92-118.us-east-2.compute.amazonaws.com" target="_blank">Deployed
+                            version on AWS</a>
+                    </div>
+                    <div class="link">
+                        <a href="https://github.com/ViacheslavBulba/Movie-Catalog-ReactJS" target="_blank">Repo on
+                            Github</a>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <article class="col-md-4">
-                    <picture>
-                        <source media='(max-width: 480px)' srcset='img/card-game_330p.png' />
-                        <img class="project-image img-fluid" src="img/card-game.png"
-                            alt="Card matching game project image">
-                    </picture>
-                    <h2>Card Matching Game</h2>
-                    <div class="links">
-                        <a href="https://viacheslavbulba.github.io/2-java-script-the-dom-and-event-listeners/"
-                            target="_blank">Online version</a><br>
-                        <a href="https://github.com/ViacheslavBulba/2-java-script-the-dom-and-event-listeners"
+
+            <div class="project-container">
+                <a href="https://viacheslavbulba.github.io/Autofill-City-And-State-Based-On-Zip-ReactJS/"
+                    target="_blank">
+                    <img class="project-image" src="img/zip-code.png"
+                        alt="Autofill City And State Based On Zip - ReactJS project image">
+                </a>
+                <div class="project-name">Autofill City And State Based On Zip - ReactJS</div>
+                <div class="links">
+                    <div class="link">
+                        <a href="https://viacheslavbulba.github.io/Autofill-City-And-State-Based-On-Zip-ReactJS/"
+                            target="_blank">Online version</a>
+                    </div>
+                    <div class="link">
+                        <a href="https://github.com/ViacheslavBulba/Autofill-City-And-State-Based-On-Zip-ReactJS"
                             target="_blank">Repo on Github</a>
                     </div>
-                </article>
-                <article class="col-md-4">
-                    <picture>
-                        <source media='(max-width: 480px)' srcset='img/frogger-game_330p.png' />
-                        <img class="project-image img-fluid" src="img/frogger-game.png"
-                            alt="Frogger game project image">
-                    </picture>
-                    <h2>Arcade Game Frogger</h2>
-                    <div class="links">
-                        <a href="https://viacheslavbulba.github.io/3-object-oriented-javascript-es6-html5-canvas/"
-                            target="_blank">Online version</a><br>
-                        <a href="https://github.com/ViacheslavBulba/3-object-oriented-javascript-es6-html5-canvas"
-                            target="_blank">Repo on Github</a>
-                    </div>
-                </article>
-                <article class="col-md-4">
-                    <picture>
-                        <source media='(max-width: 480px)' srcset='img/restaurant-reviews_330p.png' />
-                        <img class="project-image img-fluid" src="img/restaurant-reviews.png"
-                            alt="Restaurant Reviews project image">
-                    </picture>
-                    <h2>Restaurant Reviews</h2>
-                    <div class="links">
-                        <a href="https://viacheslavbulba.github.io/5-accessibility-features-and-work-offline-using-service-worker/"
-                            target="_blank">Online version</a><br>
-                        <a href="https://github.com/ViacheslavBulba/5-accessibility-features-and-work-offline-using-service-worker"
-                            target="_blank">Repo on Github</a>
-                    </div>
-                </article>
+                </div>
             </div>
+
+            <div class="project-container">
+                <img class="project-image" src="img/course-catalog.png" alt="Course Catalog - Angular 8 project image">
+                <div class="project-name">Course Catalog - Angular 8</div>
+                <div class="links">
+                    <!-- <div class="link">
+                        <a href="https://viacheslavbulba.github.io/Course-Catalog-Angular-8/"
+                            target="_blank">Online version</a>
+                    </div> -->
+                    <div class="link">
+                        <a href="https://github.com/ViacheslavBulba/Course-Catalog-Angular-8" target="_blank">Repo on
+                            Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-container">
+                <a href="https://viacheslavbulba.github.io/Matching-Game-JavaScript/" target="_blank">
+                    <img class="project-image" src="img/card-game.png" alt="Card matching game project image">
+                </a>
+                <div class="project-name">Card Matching Game</div>
+                <div class="links">
+                    <div class="link">
+                        <a href="https://viacheslavbulba.github.io/Matching-Game-JavaScript/" target="_blank">Online
+                            version</a>
+                    </div>
+                    <div class="link">
+                        <a class="link" href="https://github.com/ViacheslavBulba/Matching-Game-JavaScript"
+                            target="_blank">Repo on Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-container">
+                <a href="https://viacheslavbulba.github.io/Frogger-Game-JavaScript/" target="_blank">
+                    <img class="project-image" src="img/frogger-game.png" alt="Frogger game project image">
+                </a>
+                <div class="project-name">Arcade Game Frogger</div>
+                <div class="links">
+                    <div class="link">
+                        <a href="https://viacheslavbulba.github.io/Frogger-Game-JavaScript/" target="_blank">Online
+                            version</a>
+                    </div>
+                    <div class="link">
+                        <a href="https://github.com/ViacheslavBulba/Frogger-Game-JavaScript" target="_blank">Repo on
+                            Github</a>
+                    </div>
+                </div>
+            </div>
+
         </section>
     </div>
 </body>

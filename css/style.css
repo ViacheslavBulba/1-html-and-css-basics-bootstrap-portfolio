@@ -1,152 +1,61 @@
-.header {
-  margin-top: 15px;
-  white-space: nowrap;
+body {
+  background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+  font-family: sans-serif;
 }
 
-.header-text-right {
-  max-width: 90vw;
-}
-
-.logo {
-  width: 5vw;
-  max-height: 70px;
-  max-width: 70px;
-  margin-top: 0px;
-}
-
-.center-image {
-  width: 100%;
-  max-height: 450px;
-}
-
-.projects-container {
-  margin-top: 30px;
-}
-
-.projects-container .col-md-4 {
-  text-align: center;
-}
-
-.project-image {
-  padding: 15px;
-  border-radius: 30px;
-  margin-top: 25px;
-  max-width: 100%;
-  height: auto;
-}
-
-img {
-  border-radius: 5px;
-}
-
-.project-image {
-  margin-bottom: 0px;
-  padding-bottom: 5px;
-}
-
-.right {
-  text-align: right;
-}
-
-.left {
-  text-align: left;
-}
-
-h1,
-h2,
-h3 {
-  font-family: fantasy;
-  text-transform: uppercase;
-  color: #2d3c49;
+.main-container {
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
-  font-size: 3em;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #fff;
 }
 
-h2 {
-  margin-top: 10px;
-  font-size: 2em;
+.all-projects-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project-container {
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px 60px 30px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.project-image {
+  width: 370px;
+  height: 370px;
+  border-radius: 30px;
   padding: 15px;
+}
+
+.project-name {
   margin: 0px;
-  padding-top: 5px;
-  padding-bottom: 0px;
-}
-
-h3 {
-  font-size: 1em;
-}
-
-hr {
-  border: none;
-  height: 5px;
-  width: 100%;
-  color: #7d97ad;
-  background-color: #7d97ad;
+  padding: 0px;
+  font-size: 20px;
+  text-align: center;
+  height: 40px;
 }
 
 .links {
-  margin-top: 0px;
+  margin-top: 5px;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  padding-top: 0px;
-  padding-left: 15px;
-}
-
-.paragraph {
-  text-align: left;
-  padding-left: 20px;
-  font-family: fantasy;
-  font-size: 2em;
-  color: #7d97ad;
-  margin-top: 15px;
-  margin-bottom: 0;
-  line-height: 0;
-  max-width: 540px;
-}
-
-.links {
   margin-bottom: 15px;
+  text-align: center;
 }
 
-@media screen and (max-width: 766px) {
-  .paragraph {
-    width: 100vw;
-    text-align: center;
-  }
-
-  .projects-container {
-    text-align: center;
-  }
-
-  .project-image {
-    max-width: 70%;
-    padding: 0px;
-    padding-bottom: 5px;
-  }
-
-  h1,
-  h3 {
-    font-weight: bold;
-  }
-
-  h1 {
-    font-size: 2em;
-  }
-
-  h2 {
-    font-size: 25px;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .links {
-    padding: 0;
-    font-size: 20px;
-  }
-
-  a {
-    margin: 0;
-    padding: 0;
-  }
+.link {
+  margin-top: 5px;
 }
